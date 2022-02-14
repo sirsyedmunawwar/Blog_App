@@ -1,0 +1,85 @@
+.bollywoodtag{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    color: #252A34;
+    font-weight: 400;
+    margin-left: 2.7vw;
+}
+.bollywoodhr{
+    margin-bottom: 2vh;
+    width: 6.5vw;
+    height: 3px;
+    background-color: #FF2E63;
+    position: relative;
+    left: -22.8vw;
+    top: -12px;
+    box-shadow: none;
+    border: none;
+}
+.tophr{
+    margin-bottom: 2vh;
+    width: 6.5vw;
+    height: 3px;
+    background-color: #F08080;
+    position: relative;
+    left: -9.7vw;
+    top: -12px;
+    box-shadow: none;
+    border: none;
+}
+
+.inside{
+    height: 3px; 
+    background-color: #252A34;
+    box-shadow: none;
+    margin:20px 0px;
+    border: none;
+    width: 55vw;
+    margin-left: 1vw;
+}
+.inside:first-of-type{
+    display: none;
+}
+.bollywoodadv{
+    margin-top: 3vh;
+    height: 165vh;
+    border: 3px solid #252A34;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+@media(max-width:600px) {
+    
+    .bollywoodtag{
+        margin-top: 30px;
+        font-size: 25px;
+        color: #252A34;
+        margin-left: 0px;
+    }
+    .bollywoodhr{
+        width: 90px;
+        position: relative;
+        left: -128px;
+        top: -0px;
+        margin-bottom: 30px;
+    }
+   
+    .TopPost{
+        margin: 50px 0px 0px;
+        font-size: 25px;
+    }
+    .inside{
+        margin:20px 0px;
+        width: 85vw;
+    }
+    .inside:first-of-type{
+        display: none;
+    }
+    .bollywoodadv{
+      display: none;
+        
+    }
+   
+}
