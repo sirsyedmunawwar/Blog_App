@@ -35,7 +35,7 @@ const Home = () => {
 
       <div className="homeimages">
         {posts.map((item) =>
-          item.id === "1000" ? (
+          item.id === "20" ? (
             <Link className="verticalGallery link" to={`/${item._id}`}>
               <div className="verticalGallery">
                 <h1 className="titleofvg">RED LEAVES</h1>
@@ -47,7 +47,7 @@ const Home = () => {
           )
         )}
         {posts.map((item) =>
-          item.id === "1001" ? (
+          item.id === "21" ? (
             <Link className="righttop link" to={`/${item._id}`}>
               <div className="righttop">
                 <h1 className="titlert">The Sound cloud You loved is doomed</h1>
@@ -59,7 +59,7 @@ const Home = () => {
           )
         )}
         {posts.map((item) =>
-          item.id === "1001" ? (
+          item.id === "21" ? (
             <Link className="rightbottom link" to={`/${item._id}`}>
               <div className="rightbottom">
                 <h1 className="titlert">The Sound cloud You loved is doomed</h1>
